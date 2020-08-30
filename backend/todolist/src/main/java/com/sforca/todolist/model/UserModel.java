@@ -7,8 +7,8 @@ import java.util.List;
 public class UserModel {
     private final String id;
     private final String username;
-    private final String firstName;
-    private final String lastName;
+    private final String name;
+    private final String surname;
     private final String email;
     private final String password;
     private final List<TaskCollectionInformationModel> createdTaskCollections;
